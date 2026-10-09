@@ -1,0 +1,38 @@
+{
+  "sources": [
+    "nick",
+    "lgg",
+    "brisc"
+  ],
+  "sampler": "shuffle",
+  "boost": 1.0,
+  "norm": "ws",
+  "seed": 42,
+  "patient_policy": "report",
+  "enabled": true,
+  "name": "abl_uniform",
+  "label": "Without weighted sampling (uniform)",
+  "fingerprint": "c1ecf5c43e63c7a5",
+  "selected": "best",
+  "best_epoch": 24,
+  "val_acc_best": 97.2809667673716,
+  "val_acc_swa": 95.77039274924472,
+  "T": 2.423414707183838,
+  "T_swa": 2.717114210128784,
+  "T_best": 2.423414707183838,
+  "n_train": 6697,
+  "n_train_by_class": {
+    "Glioma": 4906,
+    "Meningioma": 494,
+    "Pituitary": 287,
+    "No Tumor": 1010
+  },
+  "n_val": 331,
+  "n_excluded_patient": 0,
+  "train_minutes": 10.114586353302002,
+  "epoch_seconds": 20.156358536084493,
+  "total_minutes": 11.550741493701935,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "torch": "2.11.0+cu128",
+  "timm": "1.0.29"
+}

@@ -1,0 +1,22 @@
+\begin{tabular}{>{\raggedright\arraybackslash}p{3.4cm} r r r r r r }
+\toprule
+ & \multicolumn{2}{c}{\textbf{Nickparvar test}} & \multicolumn{2}{c}{\textbf{BRISC test}} & \multicolumn{2}{c}{\textbf{PMRAM}} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+\textbf{Configuration} & Acc (\%) & $\Delta$ (pp) & Acc (\%) & $\Delta$ (pp) & Acc (\%) & $\Delta$ (pp) \\
+\midrule
+Full model (reference) & 95.19 & -- & 97.50 & -- & 96.48 & -- \\
+\midrule
+Without LGG crops & 93.81 & $-$1.38$^{*}$ & 96.30 & $-$1.20 & 94.62 & $-$1.86$^{***}$ \\
+Without BRISC-train & 94.19 & $-$1.00 & 96.00 & $-$1.50 & 95.15 & $-$1.33$^{*}$ \\
+Nickparvar-train only & 93.88 & $-$1.31$^{*}$ & 96.30 & $-$1.20 & 94.95 & $-$1.53$^{*}$ \\
+Without glioma boost (class-balanced only) & 94.56 & $-$0.62 & 96.60 & $-$0.90 & 95.75 & $-$0.73 \\
+Without weighted sampling (uniform) & 94.62 & $-$0.56 & 96.70 & $-$0.80 & 95.28 & $-$1.20$^{*}$ \\
+Percentile instead of White Stripe & 93.81 & $-$1.38$^{*}$ & 95.10 & $-$2.40$^{***}$ & 94.22 & $-$2.26$^{***}$ \\
+Patient-disjoint training (figshare PIDs) & 84.06 & $-$11.13$^{***}$ & 84.80 & $-$12.70$^{***}$ & 83.12 & $-$13.36$^{***}$ \\
+\midrule
+Best checkpoint $\rightarrow$ SWA & 94.81 & $-$0.38 & 97.00 & $-$0.50 & 96.28 & $-$0.20 \\
+No TTA (single view, $T^{*}$) & 95.00 & $-$0.19 & 97.00 & $-$0.50 & 95.95 & $-$0.53 \\
+No temperature scaling (TTA, $T=1$) & 95.19 & 0.00 & 97.50 & 0.00 & 96.41 & $-$0.07 \\
+TTA with $K{=}6$ views & 95.19 & 0.00 & 97.40 & $-$0.10 & 95.88 & $-$0.60$^{*}$ \\
+\bottomrule
+\end{tabular}

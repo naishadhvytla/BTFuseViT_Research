@@ -1,0 +1,22 @@
+\begin{tabular}{>{\raggedright\arraybackslash}p{3.4cm} r r r r r r }
+\toprule
+ & \multicolumn{2}{c}{\textbf{Nickparvar test}} & \multicolumn{2}{c}{\textbf{BRISC test}} & \multicolumn{2}{c}{\textbf{PMRAM}} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+\textbf{Configuration} & $p$ & $p_{\mathrm{Holm}}$ & $p$ & $p_{\mathrm{Holm}}$ & $p$ & $p_{\mathrm{Holm}}$ \\
+\midrule
+Full model (reference) & -- & -- & -- & -- & -- & -- \\
+\midrule
+Without LGG crops & 0.002 & 0.016 & 0.012 & 0.095 & $<$0.001 & $<$0.001 \\
+Without BRISC-train & 0.023 & 0.158 & 0.008 & 0.073 & 0.004 & 0.022 \\
+Nickparvar-train only & 0.005 & 0.037 & 0.029 & 0.203 & 0.001 & 0.011 \\
+Without glioma boost (class-balanced only) & 0.121 & 0.729 & 0.049 & 0.294 & 0.090 & 0.269 \\
+Without weighted sampling (uniform) & 0.188 & 0.939 & 0.096 & 0.481 & 0.001 & 0.011 \\
+Percentile instead of White Stripe & 0.003 & 0.023 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 \\
+Patient-disjoint training (figshare PIDs) & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 & $<$0.001 \\
+\midrule
+Best checkpoint $\rightarrow$ SWA & 0.238 & 0.952 & 0.227 & 0.680 & 0.453 & 0.906 \\
+No TTA (single view, $T^{*}$) & 0.549 & 1.000 & 0.125 & 0.500 & 0.021 & 0.086 \\
+No temperature scaling (TTA, $T=1$) & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 \\
+TTA with $K{=}6$ views & 1.000 & 1.000 & 1.000 & 1.000 & 0.004 & 0.022 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code or the released results, please cite the paper below."
+title: "BTFuseViT: code and results"
+type: software
+authors:
+  - given-names: "Kiran Kumar"
+    family-names: "Eepuri"
+  - given-names: "Naishadh"
+    family-names: "Vytla"
+  - given-names: "K. Rajendra"
+    family-names: "Prasad"
+  - given-names: "Pardhu"
+    family-names: "Thottempudi"
+  - given-names: "Kiran"
+    family-names: "Siripuri"
+repository-code: "https://github.com/naishadhvytla/BTFuseViT_Research"
+license: MIT
+preferred-citation:
+  type: article
+  title: "BTFuseViT: A Vision Transformer with Multi-Dataset Fusion and Phased Transfer Learning for Multi-Class Brain Tumor Classification"
+  authors:
+    - given-names: "Kiran Kumar"
+      family-names: "Eepuri"
+    - given-names: "Naishadh"
+      family-names: "Vytla"
+    - given-names: "K. Rajendra"
+      family-names: "Prasad"
+    - given-names: "Pardhu"
+      family-names: "Thottempudi"
+    - given-names: "Kiran"
+      family-names: "Siripuri"
+  journal: "BMC Medical Imaging"
+  year: 2026
+  status: submitted
+  notes: "Manuscript under review. No DOI yet."

@@ -1,0 +1,67 @@
+{
+  "params": 86619652,
+  "flops_pass": 110968215552.0,
+  "macs_analytic": 55483582464,
+  "lat1": [
+    2.1921099998962745,
+    2.21295749984165
+  ],
+  "lat6": [
+    3.871099999969374,
+    3.8796029998820813
+  ],
+  "lat14": [
+    8.330879499908406,
+    8.342221500242886
+  ],
+  "lat14_sequential": [
+    30.546194999715226,
+    30.614428499961832
+  ],
+  "e2e1": [
+    3.7929049999547715,
+    3.8122445001590677
+  ],
+  "e2e14": [
+    33.582524999928864,
+    33.86854944988045
+  ],
+  "thr64": 1739.0500982258925,
+  "mem1": 514.8403472900391,
+  "mem14": 691.2187652587891,
+  "weights_mb": 330.42774963378906,
+  "cpu_name": "AMD EPYC 9B45",
+  "cpu_lat_ms": 74.40828759999931,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "comparators": {
+    "BRAIN-META": {
+      "models": [
+        "densenet121",
+        "densenet169",
+        "densenet201",
+        "mobilenetv1_100",
+        "mobilenetv2_100",
+        "efficientnet_b0",
+        "efficientnet_b1",
+        "efficientnet_b4",
+        "inception_v3",
+        "legacy_xception"
+      ],
+      "params": 113685460,
+      "flops": 42379128000.0,
+      "lat": 46.78865999994741,
+      "mem": 652.2488555908203
+    },
+    "BTdiagAI": {
+      "models": [
+        "inception_v3",
+        "densenet121",
+        "legacy_xception"
+      ],
+      "params": 49566868,
+      "flops": 20439724672.0,
+      "lat": 12.490334499943856,
+      "mem": 305.8076934814453
+    }
+  }
+}

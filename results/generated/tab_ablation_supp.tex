@@ -1,0 +1,21 @@
+\begin{tabular}{>{\raggedright\arraybackslash}p{3.4cm} r r r r r r}
+\toprule
+\textbf{Configuration} & \textbf{Gli.} & \textbf{Men.} & \textbf{Pit.} & \textbf{NoT.} & \textbf{Macro} & \textbf{Macro-} \\
+ & \textbf{F1} & \textbf{F1} & \textbf{F1} & \textbf{F1} & \textbf{F1} & \textbf{AUC} \\
+\midrule
+Full model (reference) & 92.97 & 93.51 & 98.48 & 95.76 & 95.18 & 0.9903 \\
+\midrule
+Without LGG crops & 91.03 & 92.04 & 96.73 & 95.31 & 93.78 & 0.9890 \\
+Without BRISC-train & 91.01 & 92.06 & 98.12 & 95.41 & 94.15 & 0.9873 \\
+Nickparvar-train only & 91.08 & 91.26 & 97.37 & 95.65 & 93.84 & 0.9885 \\
+Without glioma boost (class-balanced only) & 92.23 & 93.85 & 97.99 & 94.10 & 94.54 & 0.9866 \\
+Without weighted sampling (uniform) & 92.65 & 93.09 & 97.49 & 95.18 & 94.60 & 0.9871 \\
+Percentile instead of White Stripe & 91.41 & 92.78 & 98.24 & 92.79 & 93.80 & 0.9830 \\
+Patient-disjoint training (figshare PIDs) & 73.88 & 77.85 & 90.64 & 93.18 & 83.89 & 0.9706 \\
+\midrule
+Best checkpoint $\rightarrow$ SWA & 91.92 & 93.07 & 98.49 & 95.64 & 94.78 & 0.9905 \\
+No TTA (single view, $T^{*}$) & 92.85 & 93.02 & 98.23 & 95.86 & 94.99 & 0.9893 \\
+No temperature scaling (TTA, $T=1$) & 92.97 & 93.63 & 98.36 & 95.76 & 95.18 & 0.9909 \\
+TTA with $K{=}6$ views & 92.99 & 93.38 & 98.48 & 95.87 & 95.18 & 0.9901 \\
+\bottomrule
+\end{tabular}

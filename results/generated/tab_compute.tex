@@ -1,0 +1,12 @@
+\begin{tabular}{>{\raggedright\arraybackslash}p{3.9cm} r r r r r}
+\toprule
+\textbf{Model / inference} & \textbf{Params} & \textbf{GFLOPs} & \textbf{Latency} & \textbf{Peak mem.} & \textbf{Acc.} \\
+ & (M) & per image & (ms) & (MB) & (\%) \\
+\midrule
+BTFuseViT, single view ($K{=}1$) & 86.6 & 111.0 & 2.2 & 515 & 95.00 \\
+BTFuseViT, TTA $K{=}6$ & 86.6 & 666 & 3.9 & -- & 95.19 \\
+BTFuseViT, TTA $K{=}14$ (full) & 86.6 & 1,554 & 8.3 & 691 & 95.19 \\
+BRAIN-META backbones only ($\times$10) & 113.7 & 42.4 & 46.8 & 652 & 97.10$^{a}$ \\
+BTdiagAI backbones only ($\times$3) & 49.6 & 20.4 & 12.5 & 306 & 99.80$^{b}$ \\
+\bottomrule
+\end{tabular}

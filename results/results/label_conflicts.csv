@@ -1,0 +1,44 @@
+i,j,hamming,ncc,bp,src_i,src_j,lab_i,lab_j,dup,uid_i,uid_j
+1557,4228,0,0.99993205,0.9998964,nick_train,nick_train,1,2,True,nick_train:Training/meningioma/Tr-me_105.jpg,nick_train:Training/pituitary/Tr-pi_1023.jpg
+1557,4281,0,0.99993205,0.9998964,nick_train,nick_train,1,2,True,nick_train:Training/meningioma/Tr-me_105.jpg,nick_train:Training/pituitary/Tr-pi_1071.jpg
+1557,4432,0,0.99993205,0.9998964,nick_train,nick_train,1,2,True,nick_train:Training/meningioma/Tr-me_105.jpg,nick_train:Training/pituitary/Tr-pi_1207.jpg
+1557,5591,0,0.99993205,0.9998964,nick_train,nick_train,1,2,True,nick_train:Training/meningioma/Tr-me_105.jpg,nick_train:Training/pituitary/Tr-pi_991.jpg
+1557,10794,0,0.99993205,0.9998964,nick_train,brisc_train,1,2,True,nick_train:Training/meningioma/Tr-me_105.jpg,brisc_train:brisc2025/classification_task/train/pituitary/brisc2025_train_03595_pi_ax_t1.jpg
+1638,5668,2,0.99866337,0.99843264,nick_train,nick_test,1,0,True,nick_train:Training/meningioma/Tr-me_1122.jpg,nick_test:Testing/glioma/Te-gl_160.jpg
+1679,4350,0,0.999908,0.99990916,nick_train,nick_train,1,2,True,nick_train:Training/meningioma/Tr-me_116.jpg,nick_train:Training/pituitary/Tr-pi_1133.jpg
+1679,4558,0,0.999908,0.99990916,nick_train,nick_train,1,2,True,nick_train:Training/meningioma/Tr-me_116.jpg,nick_train:Training/pituitary/Tr-pi_1320.jpg
+1679,10750,0,0.999908,0.99990916,nick_train,brisc_train,1,2,True,nick_train:Training/meningioma/Tr-me_116.jpg,brisc_train:brisc2025/classification_task/train/pituitary/brisc2025_train_03551_pi_ax_t1.jpg
+2145,4545,2,0.99693877,0.99570525,nick_train,nick_train,1,2,True,nick_train:Training/meningioma/Tr-me_409.jpg,nick_train:Training/pituitary/Tr-pi_1309.jpg
+2145,4781,2,0.99693877,0.99570525,nick_train,nick_train,1,2,True,nick_train:Training/meningioma/Tr-me_409.jpg,nick_train:Training/pituitary/Tr-pi_261.jpg
+2210,5965,0,0.9969821,0.982532,nick_train,nick_test,1,0,True,nick_train:Training/meningioma/Tr-me_468.jpg,nick_test:Testing/glioma/Te-gl_68.jpg
+2283,5501,0,0.99992764,0.9999145,nick_train,nick_train,1,2,True,nick_train:Training/meningioma/Tr-me_533.jpg,nick_train:Training/pituitary/Tr-pi_91.jpg
+2761,4310,0,0.99996173,0.9999343,nick_train,nick_train,1,2,True,nick_train:Training/meningioma/Tr-me_964.jpg,nick_train:Training/pituitary/Tr-pi_1098.jpg
+2761,4374,0,0.99996173,0.9999343,nick_train,nick_train,1,2,True,nick_train:Training/meningioma/Tr-me_964.jpg,nick_train:Training/pituitary/Tr-pi_1155.jpg
+2761,4624,0,0.99996173,0.9999343,nick_train,nick_train,1,2,True,nick_train:Training/meningioma/Tr-me_964.jpg,nick_train:Training/pituitary/Tr-pi_1380.jpg
+2761,11379,0,0.99996173,0.9999343,nick_train,brisc_train,1,2,True,nick_train:Training/meningioma/Tr-me_964.jpg,brisc_train:brisc2025/classification_task/train/pituitary/brisc2025_train_04180_pi_co_t1.jpg
+2761,18578,0,0.9999711,0.9999227,nick_train,pmram,1,2,True,nick_train:Training/meningioma/Tr-me_964.jpg,pmram:PMRAM Bangladeshi Brain Cancer - MRI Dataset/PMRAM Bangladeshi Brain Cancer - MRI Dataset/Raw Data/Raw/512Pituitary/pituitary (49).jpg
+4228,8646,0,0.99993193,0.9998964,nick_train,brisc_train,2,1,True,nick_train:Training/pituitary/Tr-pi_1023.jpg,brisc_train:brisc2025/classification_task/train/meningioma/brisc2025_train_01447_me_ax_t1.jpg
+4281,8646,0,0.99993193,0.9998964,nick_train,brisc_train,2,1,True,nick_train:Training/pituitary/Tr-pi_1071.jpg,brisc_train:brisc2025/classification_task/train/meningioma/brisc2025_train_01447_me_ax_t1.jpg
+4350,8743,0,0.99990803,0.9999091,nick_train,brisc_train,2,1,True,nick_train:Training/pituitary/Tr-pi_1133.jpg,brisc_train:brisc2025/classification_task/train/meningioma/brisc2025_train_01544_me_ax_t1.jpg
+4432,8646,0,0.99993193,0.9998964,nick_train,brisc_train,2,1,True,nick_train:Training/pituitary/Tr-pi_1207.jpg,brisc_train:brisc2025/classification_task/train/meningioma/brisc2025_train_01447_me_ax_t1.jpg
+4545,9033,2,0.99693865,0.99570525,nick_train,brisc_train,2,1,True,nick_train:Training/pituitary/Tr-pi_1309.jpg,brisc_train:brisc2025/classification_task/train/meningioma/brisc2025_train_01834_me_co_t1.jpg
+4558,8743,0,0.99990803,0.9999091,nick_train,brisc_train,2,1,True,nick_train:Training/pituitary/Tr-pi_1320.jpg,brisc_train:brisc2025/classification_task/train/meningioma/brisc2025_train_01544_me_ax_t1.jpg
+4781,9033,2,0.99693865,0.99570525,nick_train,brisc_train,2,1,True,nick_train:Training/pituitary/Tr-pi_261.jpg,brisc_train:brisc2025/classification_task/train/meningioma/brisc2025_train_01834_me_co_t1.jpg
+5501,9032,0,0.9999275,0.9999146,nick_train,brisc_train,2,1,True,nick_train:Training/pituitary/Tr-pi_91.jpg,brisc_train:brisc2025/classification_task/train/meningioma/brisc2025_train_01833_me_co_t1.jpg
+5591,8646,0,0.99993193,0.9998964,nick_train,brisc_train,2,1,True,nick_train:Training/pituitary/Tr-pi_991.jpg,brisc_train:brisc2025/classification_task/train/meningioma/brisc2025_train_01447_me_ax_t1.jpg
+5668,6169,2,0.99866337,0.99843264,nick_test,nick_test,0,1,True,nick_test:Testing/glioma/Te-gl_160.jpg,nick_test:Testing/meningioma/Te-me_159.jpg
+5668,8462,2,0.99866337,0.99843264,nick_test,brisc_train,0,1,True,nick_test:Testing/glioma/Te-gl_160.jpg,brisc_train:brisc2025/classification_task/train/meningioma/brisc2025_train_01263_me_ax_t1.jpg
+5668,12468,2,0.99866337,0.99843264,nick_test,brisc_test,0,1,True,nick_test:Testing/glioma/Te-gl_160.jpg,brisc_test:brisc2025/classification_task/test/meningioma/brisc2025_test_00269_me_ax_t1.jpg
+5965,6346,0,0.9969821,0.982532,nick_test,nick_test,0,1,True,nick_test:Testing/glioma/Te-gl_68.jpg,nick_test:Testing/meningioma/Te-me_50.jpg
+5965,8492,0,0.9969821,0.982532,nick_test,brisc_train,0,1,True,nick_test:Testing/glioma/Te-gl_68.jpg,brisc_train:brisc2025/classification_task/train/meningioma/brisc2025_train_01293_me_ax_t1.jpg
+5965,12503,0,0.9969821,0.982532,nick_test,brisc_test,0,1,True,nick_test:Testing/glioma/Te-gl_68.jpg,brisc_test:brisc2025/classification_task/test/meningioma/brisc2025_test_00304_me_ax_t1.jpg
+5965,17651,4,0.99793583,0.98993766,nick_test,pmram,0,1,True,nick_test:Testing/glioma/Te-gl_68.jpg,pmram:PMRAM Bangladeshi Brain Cancer - MRI Dataset/PMRAM Bangladeshi Brain Cancer - MRI Dataset/Raw Data/Raw/512Meningioma/M_248.jpg
+5965,17810,4,0.99793583,0.98993766,nick_test,pmram,0,1,True,nick_test:Testing/glioma/Te-gl_68.jpg,pmram:PMRAM Bangladeshi Brain Cancer - MRI Dataset/PMRAM Bangladeshi Brain Cancer - MRI Dataset/Raw Data/Raw/512Meningioma/M_5.jpg
+6121,6919,0,0.99996185,0.999918,nick_test,nick_test,1,2,True,nick_test:Testing/meningioma/Te-me_115.jpg,nick_test:Testing/pituitary/Te-pi_206.jpg
+6121,13025,0,0.99996185,0.999918,nick_test,brisc_test,1,2,True,nick_test:Testing/meningioma/Te-me_115.jpg,brisc_test:brisc2025/classification_task/test/pituitary/brisc2025_test_00826_pi_co_t1.jpg
+6919,12625,0,0.99996173,0.99991775,nick_test,brisc_test,2,1,True,nick_test:Testing/pituitary/Te-pi_206.jpg,brisc_test:brisc2025/classification_task/test/meningioma/brisc2025_test_00426_me_co_t1.jpg
+8646,10794,0,0.99993205,0.9998964,brisc_train,brisc_train,1,2,True,brisc_train:brisc2025/classification_task/train/meningioma/brisc2025_train_01447_me_ax_t1.jpg,brisc_train:brisc2025/classification_task/train/pituitary/brisc2025_train_03595_pi_ax_t1.jpg
+8743,10750,0,0.999908,0.99990916,brisc_train,brisc_train,1,2,True,brisc_train:brisc2025/classification_task/train/meningioma/brisc2025_train_01544_me_ax_t1.jpg,brisc_train:brisc2025/classification_task/train/pituitary/brisc2025_train_03551_pi_ax_t1.jpg
+12625,13025,0,0.99996185,0.999918,brisc_test,brisc_test,1,2,True,brisc_test:brisc2025/classification_task/test/meningioma/brisc2025_test_00426_me_co_t1.jpg,brisc_test:brisc2025/classification_task/test/pituitary/brisc2025_test_00826_pi_co_t1.jpg
+17460,17553,2,0.9906957,0.98329943,pmram,pmram,0,1,True,pmram:PMRAM Bangladeshi Brain Cancer - MRI Dataset/PMRAM Bangladeshi Brain Cancer - MRI Dataset/Raw Data/Raw/512Glioma/glioma (61).jpg,pmram:PMRAM Bangladeshi Brain Cancer - MRI Dataset/PMRAM Bangladeshi Brain Cancer - MRI Dataset/Raw Data/Raw/512Meningioma/M_146.jpg
+17460,17571,2,0.9906957,0.98329943,pmram,pmram,0,1,True,pmram:PMRAM Bangladeshi Brain Cancer - MRI Dataset/PMRAM Bangladeshi Brain Cancer - MRI Dataset/Raw Data/Raw/512Glioma/glioma (61).jpg,pmram:PMRAM Bangladeshi Brain Cancer - MRI Dataset/PMRAM Bangladeshi Brain Cancer - MRI Dataset/Raw Data/Raw/512Meningioma/M_162.jpg

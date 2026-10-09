@@ -1,0 +1,16 @@
+\begin{tabular}{>{\raggedright\arraybackslash}p{3.0cm} r r r r r r >{\raggedright\arraybackslash}p{2.9cm}}
+\toprule
+\textbf{Role} & \textbf{Gli.} & \textbf{Men.} & \textbf{Pit.} & \textbf{NoT.} & \textbf{Total} & \textbf{PID} & \textbf{Sources} \\
+\midrule
+Training (Nickparvar + BRISC) & 787 & 494 & 287 & 1,010 & 2,578 & 1,411 & Nickparvar-train 1,742, BRISC-train 836 \\
+Training (LGG FLAIR slices $\rightarrow$ crops) & 1,373 & 0 & 0 & 0 & 1,373 & 1,373 & LGG (FLAIR) 1,373 \\
+Validation (selection + calibration) & 69 & 57 & 56 & 149 & 331 & 158 & Nickparvar-train 212, BRISC-train 119 \\
+Test: Nickparvar & 400 & 400 & 400 & 400 & 1,600 & 857 & Nickparvar-test 1,600 \\
+Test: BRISC & 254 & 306 & 300 & 140 & 1,000 & 700 & BRISC-test 1,000 \\
+Test: PMRAM & 373 & 363 & 373 & 396 & 1,505 & 0 & PMRAM 1,505 \\
+Probe: LGG tumor-free FLAIR (unlabeled) & -- & -- & -- & -- & 2,556 & 2,556 & LGG (FLAIR) 2,556 \\
+Removed: linked to a test image & 826 & 834 & 1,887 & 1,124 & 4,671 & 3,191 & Nickparvar-train 2,837, BRISC-train 1,834 \\
+Removed: exact copy within training pool & 865 & 1,336 & 616 & 184 & 3,001 & 2,689 & BRISC-train 2,205, Nickparvar-train 796 \\
+Removed: exact copies with conflicting labels & 0 & 8 & 11 & 0 & 19 & 19 & Nickparvar-train 13, BRISC-train 6 \\
+\bottomrule
+\end{tabular}

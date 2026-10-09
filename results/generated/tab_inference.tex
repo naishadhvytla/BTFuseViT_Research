@@ -1,0 +1,13 @@
+\begin{tabular}{l r r r r r r }
+\toprule
+ & \multicolumn{3}{c}{\textbf{Nickparvar test}} & \multicolumn{3}{c}{\textbf{BRISC test}} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+\textbf{Inference} & Acc (\%) & ECE (\%) & Brier & Acc (\%) & ECE (\%) & Brier \\
+\midrule
+Single view, $T=1$ & 95.00 & 4.89 & 0.0975 & 97.00 & 2.94 & 0.0596 \\
+Single view, $T=T^{*}$ & 95.00 & 2.32 & 0.0907 & 97.00 & 1.01 & 0.0561 \\
+TTA $K{=}14$, $T=1$ & 95.19 & 3.39 & 0.0832 & 97.50 & 1.79 & 0.0470 \\
+TTA $K{=}14$, $T=T^{*}$ (full) & 95.19 & 1.13 & 0.0807 & 97.50 & 1.66 & 0.0464 \\
+TTA $K{=}6$, $T=T^{*}$ & 95.19 & 1.49 & 0.0826 & 97.40 & 1.15 & 0.0467 \\
+\bottomrule
+\end{tabular}

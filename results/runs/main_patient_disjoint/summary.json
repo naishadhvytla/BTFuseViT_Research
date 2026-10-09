@@ -1,0 +1,38 @@
+{
+  "sources": [
+    "nick",
+    "lgg",
+    "brisc"
+  ],
+  "sampler": "balanced",
+  "boost": 1.5,
+  "norm": "ws",
+  "seed": 42,
+  "patient_policy": "exclude",
+  "enabled": true,
+  "name": "main_patient_disjoint",
+  "label": "Patient-disjoint training (figshare PIDs)",
+  "fingerprint": "bddad9147edc1533",
+  "selected": "swa",
+  "best_epoch": 12,
+  "val_acc_best": 97.17514124293785,
+  "val_acc_swa": 97.17514124293785,
+  "T": 2.846018075942993,
+  "T_swa": 2.846018075942993,
+  "T_best": 1.983890414237976,
+  "n_train": 5379,
+  "n_train_by_class": {
+    "Glioma": 4186,
+    "Meningioma": 112,
+    "Pituitary": 71,
+    "No Tumor": 1010
+  },
+  "n_val": 177,
+  "n_excluded_patient": 1472,
+  "train_minutes": 8.147909832000732,
+  "epoch_seconds": 16.226687971750895,
+  "total_minutes": 9.588483460744222,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "torch": "2.11.0+cu128",
+  "timm": "1.0.29"
+}

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials and secrets
+kaggle.json
+.kaggle/
+.env
+.env.*
+
+# Model checkpoints (not distributed)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Downloaded datasets and local caches (datasets are not redistributed)
+btf_cache/
+btf_cache_SMOKE/
+data/
+datasets/
+
+# Packaged outputs (unpacked under results/ instead)
+BTFuseViT_v6_outputs*.zip
